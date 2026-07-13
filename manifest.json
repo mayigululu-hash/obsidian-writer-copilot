@@ -1,0 +1,10 @@
+{
+  "id": "writer-copilot",
+  "name": "Writer Copilot",
+  "version": "0.1.3",
+  "minAppVersion": "1.11.4",
+  "description": "An open-source AI writing copilot for knowledge workers, with chat, local sessions, configurable agents and inline writing actions.",
+  "author": "Baiyang",
+  "authorUrl": "https://github.com/mayigululu-hash",
+  "isDesktopOnly": true
+}

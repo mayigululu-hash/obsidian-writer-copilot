@@ -1,0 +1,14 @@
+node_modules/
+main.js
+*.map
+.DS_Store
+coverage/
+backups/
+data.json
+sessions/
+.obsidian/
+.env
+.env.*
+*.log
+.omo/
+.codegraph

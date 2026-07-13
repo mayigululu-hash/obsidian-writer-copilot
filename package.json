@@ -1,0 +1,40 @@
+{
+  "name": "obsidian-writer-copilot",
+  "version": "0.1.3",
+  "private": true,
+  "description": "Open-source AI writing copilot for knowledge workers, built natively for Obsidian.",
+  "license": "MIT",
+  "author": "Baiyang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayigululu-hash/obsidian-writer-copilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayigululu-hash/obsidian-writer-copilot/issues"
+  },
+  "homepage": "https://github.com/mayigululu-hash/obsidian-writer-copilot#readme",
+  "keywords": [
+    "obsidian-plugin",
+    "ai-writing",
+    "writing-copilot",
+    "knowledge-base",
+    "local-first"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "typecheck": "tsc -noEmit -skipLibCheck",
+    "test": "vitest run",
+    "release:check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "0.28.1",
+    "obsidian": "1.13.1",
+    "typescript": "5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
